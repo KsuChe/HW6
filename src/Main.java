@@ -6,10 +6,10 @@ public class Main {
         //task1
         int[] money = generateRandomArray();
         int sum = 0;
-        for (int element: generateRandomArray()) {
-            sum += element;
+        for (int index = 0; index < money.length; index++) {
+            sum +=generateRandomArray()[index];
         }
-        System.out.println(sum);
+        System.out.println("Сумма трат за месяц составила " + sum + " рублей");
     }
 
 
